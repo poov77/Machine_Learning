@@ -1,0 +1,11 @@
+﻿Metric,Type,What it Measures,Range,Key Use
+Accuracy,Classification,Overall correctness,0–1,Simple baseline
+Precision,Classification,Correctness of positives,0–1,Avoid false positives
+Recall,Classification,Coverage of positives,0–1,Avoid false negatives
+F1,Classification,Balance of precision & recall,0–1,Imbalanced datasets
+MSE,Regression,Squared error,0–∞,Penalizes large errors
+MAE,Regression,Absolute error,0–∞,Average error size
+R²,Regression,Variance explained,"'-∞–1",Model fit quality
+Confusion Matrix,Classification,Error breakdown,Counts,Misclassification analysis
+Classification Report,Classification,Precision/Recall/F1 per class,Text summary,Multi‑class overview
+Silhouette Score,Clustering,Cluster separation,"'-1–1",Cluster quality

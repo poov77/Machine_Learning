@@ -1,0 +1,7 @@
+﻿Category,Import,Purpose
+Regression,"LinearRegression, Ridge, Lasso",Predict continuous values
+Classification,"LogisticRegression, RandomForestClassifier, SVC, KNeighborsClassifier",Predict categories
+Clustering,"KMeans, DBSCAN",Group unlabeled data
+Dimensionality Reduction,"PCA, TSNE",Reduce feature space
+Preprocessing,"StandardScaler, LabelEncoder, SimpleImputer",Prepare data
+Evaluation,"accuracy_score, mean_squared_error, r2_score",Measure performance
